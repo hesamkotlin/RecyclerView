@@ -30,7 +30,7 @@ class ContactsAdapter(
             tvName.text = contact.name
             tvPhone.text = contact.phone
             //ivImage.setImageResource(contact.image)
-            Glide.with(ivImage.context).load(contact.image).into(ivImage)
+            // Glide.with(ivImage.context).load(contact.image).into(ivImage)
         }
     }
 
